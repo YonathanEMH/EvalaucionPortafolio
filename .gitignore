@@ -1,0 +1,43 @@
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y caché
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Configuraciones locales de editores y IDEs
+.vscode/
+.idea/
+
+# Carpetas de build / producción (si usas alguna herramienta de build)
+dist/
+build/
+
+# Archivos generados por sistemas o editores
+*.bak
+*.orig
+
+# Archivos de entorno con datos sensibles
+.env
+
+# Archivos de respaldo comunes
+*.backup
+*.bak
+
+# Archivos de configuración de sistema Windows
+ehthumbs.db
+Desktop.ini
+
+# Archivos de configuración JetBrains (WebStorm, PhpStorm, etc.)
+*.iml
+out/
+
+
+*.orig
+
+logs/
+*.log
