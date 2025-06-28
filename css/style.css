@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #1e3c72;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+
+#proyectos .card {
+  border: none;
+  border-left: 5px solid #2a5298;
+  transition: transform 0.2s ease-in-out;
+}
+
+#proyectos .card:hover {
+  transform: scale(1.02);
+}
+
+#habilidades ul {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+#contacto form {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+#contacto button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #1e3c72;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  header p.lead {
+    font-size: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
